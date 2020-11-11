@@ -390,6 +390,8 @@ canvas {
 		line-height: 100px;
 		text-align: center;
 		/* border: 2px dashed #f69c55; */
+		
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .card-img-top{
@@ -404,4 +406,25 @@ canvas {
 	text-align: center;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 30px;
+}
+
+.bigger {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 35px;
+}
+
+.source {
+	float:right;
+	margin-right:20px;
+}
+
+.join {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	margin-left:30px;
+}
+
+.involved {
+	float:right;
+	margin-right:20px;
 }
