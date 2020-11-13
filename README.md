@@ -17,3 +17,6 @@ issues
 # where does 'take a look' button navigate to National BC foundation
 # where does 'get involved' button navigate to Contact Page
 # order checkup -> BC -> examination
+
+
+# where does preregister navigate to 
