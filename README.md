@@ -9,3 +9,11 @@ Boston Meditech Website
 # nav bar on every page
 # Product & Technology page with new blue background and particles
 
+
+
+issues
+# the main font of your choice is not free on the internet, charges
+# about Breast Cancer page icons are not in the drive folder
+# where does 'take a look' button navigate to National BC foundation
+# where does 'get involved' button navigate to Contact Page
+# order checkup -> BC -> examination
