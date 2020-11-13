@@ -378,6 +378,20 @@ canvas {
 	border-radius: 0 0 3px 3px;
 }
 
+.footer1{
+	background-color: #e9b8b9;
+
+	padding:90px;
+
+}
+
+.footer2 {
+	background-color:	#344c63;
+color:white;
+
+}
+.footer2 a { color: #ffffff; }
+
 
 
 /* aboutBC page */
@@ -465,3 +479,9 @@ canvas {
 	
 font-family: 'Open Sans Condensed', sans-serif;
 }
+
+.noimage{
+	height:50%;
+	width:50%;
+}
+
