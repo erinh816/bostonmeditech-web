@@ -1,6 +1,9 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boston Meditech Group</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Text+Me+One|Baloo+Bhai" rel="stylesheet">
@@ -11,130 +14,115 @@
 </head>
 
 <body>
-    <!-- first page div -->
-    <div id="fisrtpage">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="index.html">
-                <div class="logo-image">
-                    <img src="assets/cropped-drlotusai-transparent-final-1.png" class="img-fluid">
+    <header class="header" style="position:fixed;">
+        <div class="big-wrapper">
+            <div class="logo-area">
+                <img src="assets/img/cropped-drlotusai-transparent-final-1.png" class="img-fluid">
+        </div>
+        <div class="header-right-area">
+            <a class="btn2 btn-primary btn2"> Join us</a>
+            <a class="btn2 btn-primary btn2"> Book an appointment </a>
+        </div>
+        <div class="tabs">
+            <a href="index.html" style="text-decoration: none">
+                <div class="Tab">
+                    <div id="Home" style="margin-bottom: 2px;">Home</div>
+                <div class="line" style="border-top: 2px solid rgba(0,0,0,0);"></div>
                 </div>
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <!-- <a class="nav-link" href="#">Boston Meditech Group
-                        </a> -->
-                    </li>
-
-                    <li class="nav-item active">
-                        <a class="nav-link" href="aboutBC.html">About Breast Cancer |
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="mobileUnit.html">Mobile Unit Services |</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="ProductTech.html">Products and Technology |</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#"></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
-                    </li>
-
-                </ul>
-            </div>
-        </nav>
-        <!-- 
-        <div class="jumbotron" style="background:url(assets/background.jpg)"> -->
-        <div class="jumbotron">
-            <p class="display-4">BOSTON MEDITCH GROUP</p>
-            <p class="display-4">Get screened at your convenience</p>
-
-            <!-- <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-    <hr class="my-4">
-    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> -->
-            <!-- <input type="button" value="Contact" class="btn btn-outline-light" onclick="window.location.href='#thirdpage'" /> -->
-            <a href="#thirdpage">
-                <!-- <button type="button" class="btn2">Book an appointment >></button> -->
-                <a href="#" class="btn btn-primary btn2">Book an appointment >></a>
+            <a href="aboutBC.html" style="text-decoration: none">
+                <div class="Tab">
+                    <div id="AboutBC" style="margin-bottom: 2px;">About Breast Cancer</div>
+                <div class="line" style="border-top: 2px solid rgba(0,0,0,0);"></div>
+                </div>
+            </a>
+            <a href="mobileUnit.html" style="text-decoration: none">
+                <div class="Tab">
+                    <div id="MobileUnit" style="margin-bottom: 2px;">Mobile Unit Services</div>
+                <div class="line" style="border-top: 2px solid rgba(0,0,0,0);"></div>
+                </div>
+            </a>
+            <a href="ProductTech.html" style="text-decoration: none">
+                <div class="Tab">
+                    <div id="ProductTech" style="margin-bottom: 2px;">Products and Technology</div>
+                <div class="line" style="border-top: 2px solid rgba(0,0,0,0);"></div>
+                </div>
+            </a>
+            <a href="aboutUs.html" style="text-decoration: none">
+                <div class="Tab">
+                    <div id="AboutUS" style="margin-bottom: 2px;">About Us</div>
+                <div class="line" style="border-top: 2px solid rgba(0,0,0,0);"></div>
+                </div>
+            </a>
+            <a href="#" style="text-decoration: none">
+                <div class="Tab">
+                    <div id="ContactUS" style="margin-bottom: 2px;">Contact Us</div>
+                <div class="line" style="border-top: 2px solid rgba(0,0,0,0);"></div>
+                </div>
             </a>
         </div>
+    </header>
+    <div id="firstpage">
+        <div class="jumbotron">
+            <div class="bkg-wrapper row">
+                <img width=93 height=133 src="assets/img/drlotusai_clean.png">
+                <p class="display-4"><span style="color: #106db7">Boston </span> <span style="color: #1fa39a">Meditech</span> <span style="color: #8ec21f">Group</span></p>
+                <p class="display-5">Your community, your convenience</p>
+                <a href="#" class="btn2 btn-primary btn2">Book an appointment now </a>
+            </div>
+        </div>
     </div>
-
-    <!-- first page div -->
-
     <!-- second page div -->
     <div id="secondpage">
-
-
         <div id="about">
-            <h1 id='abouthead' style="text-decoration: underline   #7087a7; ">OUR MISSION</h1>
-            <h2 id='abouthead'>"Early detection saves lives"</h2>
-            <p id='allp'>Boston Meditech Gorup is a medical technology company that is specialized in applying
-                artificial
-                <br>intelligence, big data and cloud technology in early detection of women's breast cancer and is
-                dedicated
-                <br>to bring mammogram screening at your convinience in your local community or at work</p>
+            <h1 id='abouthead' style="text-decoration: underline   #7087a7; ">
+                OUR MISSION</h1>
+            <h2 id='abouthead'><span class="highlight">"Early detection saves lives"</span></h2>
+            <p id='allp'>Boston Meditech Group is a medical technology company that is specialized in applying
+            <strong>artificial
+            <br>intelligence</strong>, <b>big data</b> and <b>cloud technology</b> in early detection of women's breast cancer and is
+            dedicated
+            <br>to bring mammogram screening at your convenience in your local community or at work.</p>
 
         </div>
     </div>
 
-    <!-- second page div -->
-
-
-
-
-
-
-    <!-- fifth page div -->
     <div id="fifthpage">
         <h1 id='abouthead' style="text-decoration: underline   #0fa477; ">WHAT WE DO</h1>
-
-
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="card">
-                    <img src="assets/van.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title cardBC">Providing an enhanced mobile unit service to people in rural and
-                            urban
-                            <br>areas
-                        </h5>
-                        <button type="button" class="btn btn-light">Check it out
-                        </button>
+        <div class="container-page">
+            <div class="row v-center">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="assets/img/exam_room.JPEG" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title cardBC">Mobile Unit Screening</h5>
+                            <p class="card-text">Providing an enhanced mobile unit service to people in rural and
+                            urban areas.</p>
+                            <a href="#" class="btn btn-primary">Learn more</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card">
-                    <img src="assets/cloud.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title cardBC">Using state of the art technology to facilitate the remote
-                            diagnosis, storage and reporting for doctors and clinicians.
-
-                        </h5>
-                        <button type="button" class="btn btn-light">Check it out
-                        </button>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="assets/img/ai.jpeg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title cardBC">Technology</h5>
+                            <p class="card-text">Using state of the art technology to facilitate the remote
+                            diagnosis, storage and reporting for doctors and clinicians.</p>
+                            <a href="#" class="btn btn-primary">Learn more</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card">
-                    <img src="assets/global_health.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title cardBC">Advancing Women’s Healthcare by providing accurate technology to
-                            diagnose women in need supported by our AI Mobile Unit
-                        </h5>
-                        <button type="button" class="btn btn-light">Check it out
-                        </button>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="assets/img/women_health.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title cardBC">Advancing Women's Healthcare</h5>
+                            <p class="card-text">Advancing Women’s Healthcare by providing accurate technology to
+                            diagnose women in need supported by our AI Mobile Unit.
+                            </p>
+                            <a href="#" class="btn btn-primary">Learn more</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -144,184 +132,100 @@
 
 
     <!-- next page before footer -->
-    <div>
-        <h1 class='glance' style="text-decoration: underline   #19af6e; ">WHY BOSTONMEDITECH's MOBILE UNIT</h1>
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="card">
-                    <img src="assets/noImage.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title cardBC">Convenient screening in your community or from your office.
-                        </h5>
+    <div id="sixpage">
+        <h1 class='whybostonmed' style="text-decoration: underline   #8ec21f;">WHY US</h1>
+        <div class="container-page">
+            <div class="row v-center">
+                <div class="col-md-4">
+                    <div class="card card-six">
+                        <img src="assets/img/van_assured.JPEG" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title cardBC">We come to you</h5>
+                            <p class="card-text">Convenient screening in your community or from your office.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card">
-                    <img src="assets/noImage.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title cardBC">Fast and reliable diagnosis with core AI Technology and
-                            experienced radiologist support </h5>
+                <div class="col-md-4">
+                    <div class="card card-six">
+                        <img src="assets/img/ai.jpeg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title cardBC">More accurate results</h5>
+                            <p class="card-text">Fast and reliable diagnosis with core AI Technology and experienced radiologist support </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card">
-                    <img src="assets/noImage.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title cardBC">Insured or non-insured, screening comes first</h5>
+                <div class="col-md-4">
+                    <div class="card card-six">
+                        <img src="assets/img/women_health.jpeg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title cardBC">We cover more</h5>
+                            <p class="class-text">Insured or non-insured, screening comes first</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- next page before footer -->
+    </div>
 
-
-        <!-- footer -->
-        <div>
-            <div class="footer1">
+    <div class="footers">
+        <div class="footer1">
+            <div class="container-page footer-program">
                 <h1 class='bigger'>JOIN OUR PROGRAM</h1>
                 <h2 class='join'>Ask your office Human Resources, if Boston Meditech is partnered with you for Breast
                     Cancer Awarness day.
                     <br> Or send us an inquiry to reach out to your company and benefit all the women in your
-                    workplace
+                    workplace.
                 </h2>
-                <a href="#" class="btn btn-primary btn2 involved">Get Involved</a>
-            </div>
-            <div class="footer2">
-                <!-- Footer -->
-                <footer class="page-footer font-small unique-color-dark"></footer>
-
-
-
-                <!-- Footer Links -->
-                <div class="container text-center text-md-left mt-5">
-
-                    <!-- Grid row -->
-                    <div class="row mt-3">
-
-                        <!-- Grid column -->
-                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-
-                            <!-- Content -->
-                            <h6 class="text-uppercase font-weight-bold">Boston Meditech Group</h6>
-                            <img src="assets/cropped-drlotusai-transparent-final-1.png" class="img-fluid">
-                            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                            <p>Boston Meditech Group Inc.
-                                20 Mall Road, Suite 151,
-                                Burlington, MA 01803, U.S.A
-
-                            </p>
-
-                        </div>
-                        <!-- Grid column -->
-
-                        <!-- Grid column -->
-                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-
-                            <!-- Links -->
-                            <h6 class="text-uppercase font-weight-bold">Menu</h6>
-                            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                            <p>
-                                <a href="#!">About Breast Cancer</a>
-                            </p>
-                            <p>
-                                <a href="#!">Mobile Unit Services</a>
-                            </p>
-                            <p>
-                                <a href="#!">Products and Technology</a>
-                            </p>
-                            <p>
-                                <a href="#!">News</a>
-                            </p>
-
-                        </div>
-                        <!-- Grid column -->
-
-                        <!-- Grid column -->
-                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-
-                            <!-- Links -->
-                            <h6 class="text-uppercase font-weight-bold">Useful links</h6>
-                            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                            <p>
-                                <a href="#!">Your Account</a>
-                            </p>
-                            <p>
-                                <a href="#!">xxx</a>
-                            </p>
-                            <p>
-                                <a href="#!">xxx</a>
-                            </p>
-                            <p>
-                                <a href="#!">Help</a>
-                            </p>
-                            <p>
-                                <a href="#!">Contact Us</a>
-                            </p>
-
-                        </div>
-                        <!-- Grid column -->
-
-                        <!-- Grid column -->
-                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-
-                            <!-- Links -->
-                            <h6 class="text-uppercase font-weight-bold">Contact</h6>
-                            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                            <p>
-                                <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
-                            <p>
-                                <i class="fas fa-envelope mr-3"></i> info@example.com</p>
-                            <p>
-                                <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-                            <p>
-                                <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
-
-                        </div>
-                        <!-- Grid column -->
-
-                    </div>
-                    <!-- Grid row -->
-
-                </div>
-                <!-- Footer Links -->
-
-                <!-- Copyright -->
-                <div class="footer-copyright text-center py-3">© 2020 Boston Meditech Group
-                    <a href=""> </a>
-                </div>
-                <!-- Copyright -->
-
-                </footer>
-                <!-- Footer -->
+                <a href="#" class="btn_join btn-primary btn2 involved">Get Involved</a>
             </div>
         </div>
+    <div class=footer>
+        <div class=footer-ctx>
+            <div class="footer-col footer-col-text" style=width:272px>
+                <img width=93 height=133 src="assets/img/drlotusai_clean.png">
+                <div>Boston Meditech Group Inc. <br>20 Mall Road, Suite 151, <br> Burlington, MA 01803, U.S.A</div>
+            </div>
+            <div class=footer-col style=padding-top:25px><strong>MENU</strong> 
+                <a href="aboutBC.html">About Breast Cancer</a> 
+                <a href="MobileUnit.html">Mobile Unit Services</a> 
+                <a href="ProductTech.html">Products & Technology</a> 
+                <a href="aboutUs.html">About Us</a> 
+                <a href="#">News/Blog</a> 
+                <a href="contactUs.html">Contact Us</a>
+            </div>
+            <div class=footer-col style=padding-top:25px><strong>EXTRAS</strong> 
+                <a href="">Legal info</a> 
+                <a href="">Privacy Policy</a> 
+                <a href="">Sitemap</a>
+            </div>
+            <div class=footer-col style=padding-top:25px><strong>LINK TO SOCIALS</strong> 
+                <a>E-mail:</a> 
+                <a href=javascript:;;>it@bostonmeditech.com</a>
+            </div>
+        </div>
+        <div class=footer-end>© 2020 Boston Meditech Group</div>
+        <!-- <div class="footer-copyright text-center pb-3">© 2020 Boston Meditech Group</div> -->
+    </div>
+</div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/102/three.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
 
+    <script src="JS/smooth-scroll.js"></script>
+    <script src="JS/three1.js"></script>
 
-
-
-
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/102/three.js"></script>
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
-
-        <script src="JS/smooth-scroll.js"></script>
-        <script src="JS/three1.js"></script>
-
-
-        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-        <!-- stats - count particles -->
-        <script type="text/javascript">
-            /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-            particlesJS.load('particles-js', 'bilder/particlesjs-config.json', function () {
-                console.log('callback - particles.js config loaded');
-            });
-        </script>
-        <script src="JS/particles.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <!-- stats - count particles -->
+    <script type="text/javascript">
+        /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+        particlesJS.load('particles-js', 'bilder/particlesjs-config.json', function () {
+            console.log('callback - particles.js config loaded');
+        });
+    </script>
+    <script src="JS/particles.js"></script>
 
 
 </body>
