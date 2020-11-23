@@ -20,3 +20,5 @@ issues
 
 
 # where does preregister navigate to 
+
+# stay on the page we stay on
