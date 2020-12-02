@@ -4,100 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Breast Cancer</title>
+    <link rel="icon" href="assets/img/drlotusai_clean.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Text+Me+One|Baloo+Bhai" rel="stylesheet">
     <link rel="stylesheet" href="assets/breastcancer.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates|Saira+Stencil+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
-    <header class="header" style="position:fixed;">
-        <div class="big-wrapper">
-            <div class="logo-area">
-                <img src="assets/img/cropped-drlotusai-transparent-final-1.png" class="img-fluid">
-            </div>
-            <div class="header-right-area">
-                <a class="btn2 btn-primary btn2"> Join us</a>
-                <a class="btn2 btn-primary btn2"> Book an appointment </a>
-            </div>
-            <div class="tabs">
-                <a href="index.html" style="text-decoration: none">
-                    <div class="Tab">
-                        <div id="Home" style="margin-bottom: 2px;">Home</div>
-                        <div class="line" style="border-top: 2px solid rgba(0,0,0,0);"></div>
-                    </div>
-                </a>
-                <a href="aboutBC.html" style="text-decoration: none">
-                    <div class="Tab">
-                        <div id="AboutBC" style="margin-bottom: 2px;">About Breast Cancer</div>
-                        <div class="line" style="border-top: 2px solid rgba(0,0,0,0);"></div>
-                    </div>
-                </a>
-                <a href="mobileUnit.html" style="text-decoration: none">
-                    <div class="Tab">
-                        <div id="MobileUnit" style="margin-bottom: 2px;">Mobile Unit Services</div>
-                        <div class="line" style="border-top: 2px solid rgba(0,0,0,0);"></div>
-                    </div>
-                </a>
-                <a href="ProductTech.html" style="text-decoration: none">
-                    <div class="Tab">
-                        <div id="ProductTech" style="margin-bottom: 2px;">Products and Technology</div>
-                        <div class="line" style="border-top: 2px solid rgba(0,0,0,0);"></div>
-                    </div>
-                </a>
-                <a href="aboutUs.html" style="text-decoration: none">
-                    <div class="Tab">
-                        <div id="AboutUS" style="margin-bottom: 2px;">About Us</div>
-                        <div class="line" style="border-top: 2px solid rgba(0,0,0,0);"></div>
-                    </div>
-                </a>
-                <a href="#" style="text-decoration: none">
-                    <div class="Tab">
-                        <div id="ContactUS" style="margin-bottom: 2px;">Contact Us</div>
-                        <div class="line" style="border-top: 2px solid rgba(0,0,0,0);"></div>
-                    </div>
-                </a>
-            </div>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="logo-area" href="index.html">
+            <img src="assets/img/cropped-drlotusai-transparent-final-1.png" class="img-fluid">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="aboutBC.html">About Breast Cancer</a><span class="sr-only">(current)</span>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="mobileUnit.html">Mobile Unit Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ProductTech.html">Products and Technology</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Company</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                  <a class="dropdown-item" href="aboutUs.html">About Us</a>
+                  <a class="dropdown-item" href="contact.html">Contact Us</a>
+                </div>
+              </li>
+            </ul>
+            <form class="form-inline mt-2 mt-md-0">
+              <!-- <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search"> -->
+              <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Join Us</button> -->
+              <a href="appointment.html" class="btn btn-outline-success my-2 my-sm-0" >Book an appointment </a>
+            </form>
         </div>
-    </header>
+    </nav>
     <div id="firstpage">
         <div class="jumbotron jumbotron-fluid aboutBC">
-            <div class="container">
-
+            <!-- <div class="bkg-wrapper row">
+                <p class="display-4">Breast Cancer at a glance</p>
+                <p class="display-5">Breast Cancer 
+                    <br>at a glance</p>
+                <a href="#" class="btn2 btn-primary btn2">Book an appointment now </a>
+            </div> -->
+            <div class="container container-left">
+                <p class="display-5">Learn about <br>breast cancer </p>
             </div>
         </div>
     </div>
-    <div>
-        <h1 class='glance' style="text-decoration: underline   #19af6e; ">BREAST CANCER AT A GLANCE</h1>
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h2 class="card-title cardBC">2nd</h2>
-                        <p class="card-text cardBC">most common cancer in women.
+        <div>
+            <!-- <h1 class='glance' style="text-decoration: underline   #19af6e; ">BREAST CANCER AT A GLANCE</h1> -->
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title cardBC" style="font-size: 100px">2nd</h2>
+                            <p class="card-text cardBC">most common cancer in women.
 
-                        </p>
+                            </p>
 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title cardBC" style="font-size: 100px">1 in 8</h2>
+                            <p class="card-text cardBC">women will develop breast cancer in their life.
+                            </p>
+
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h2 class="card-title cardBC">1 in 8</h2>
-                        <p class="card-text cardBC">women will develop breast cancer in there life.
-                        </p>
 
-                    </div>
-                </div>
-            </div>
+
         </div>
-
-
-    </div>
 
 
 
@@ -109,187 +104,179 @@
     <!-- second page div -->
     <div>
 
-        <h1 class='glance'>Early detection includes doing monthly breast self-exams, and scheduling regular clinical
-            breast exams and mammograms.</h3>
+        <h1 class='glance'>Early detection includes doing monthly breast self-exams, and scheduling regular clinical breast exams and mammograms.</h1>
 
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="card">
-                        <img src="assets/img/check-up.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title cardBC">Symptomes and signs</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card">
-                        <img src="assets/img/breast-cancer.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title cardBC">Breast pain</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card">
-                        <img src="assets/img/self-examination.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title cardBC">Breast self-exam</h5>
-                        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="assets/img/check-up.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title cardBC">Symptomes and signs</h5>
                     </div>
                 </div>
             </div>
-    </div>
-
-
-    <div class="row">
-        <div class="col-sm-8">
-            <div class="card">
-
-                <div class="card-body">
-                    <h5 class="card-title bigger">For a more exhaustive picture on early breast cancer detection,
-                        please
-                        click on the attached link of the National Breast Cancer Foundation, Inc. </h5>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="assets/img/breast-cancer.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title cardBC">Breast pain</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="assets/img/self-examination.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title cardBC">Breast self-exam</h5>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-sm-4">
-            <div class="card">
 
-                <div class="card-body">
-                    <a href="https://www.nationalbreastcancer.org/about-breast-cancer/"
-                        class="btn btn-primary btn2">Take a look</a>
+
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="card">
+
+                    <div class="card-body">
+                        <h5 class="card-title bigger no-padding">For a more exhaustive picture on early breast cancer detection,
+                            please
+                            click on the attached link of the National Breast Cancer Foundation, Inc. </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+
+                    <div class="card-body">
+                        <a href="https://www.nationalbreastcancer.org/about-breast-cancer/" class="btn btn-primary involved" style="float:left;">Take a look</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
     <!-- third page -->
-    <h1 class='glance' style="text-decoration: underline   #19af6e; ">GENERAL STATEMENT</h1>
-    <div class="row">
-        <div class="col-sm-2">
-            <div class="card">
-                <img src="assets/img/circle.png" class="card-img-top" alt="...">
-
-                <!-- <div class="card-body">
-
-                </div> -->
-            </div>
-        </div>
-        <div class="col-sm-10">
-            <div class="card">
-
-                <div class="card-body">
-                    <h2 class="bigger">25% of disagreement between radiologists, with comparable training and
-                        experiences, because of
-                        rendering different diagnoses.
-
-                    </h2>
-
-                    <h2 class="bigger">20% of disagreement with themselves, when presented with same cases a month
-                        later
-
-                    </h2>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <h1 class='glance' style="text-decoration: underline   #19af6e; ">OVERVIEW STATISTICS</h1>
-    <div class="row">
-        <div class="col-sm-3">
-            <div class="card">
-                <img src="assets/img/87.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title cardBC">Average sensitivity of radiologists in the US</h5>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-3">
-            <div class="card">
-                <img src="assets/img/7.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title cardBC">False positive rate for a mammogram (no history)</h5>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-3">
-            <div class="card">
-                <img src="assets/img/50.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title cardBC">False positive rate over a period of 10 yearly mammograms
-                    </h5>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-3">
-            <div class="card">
-                <img src="assets/img/89.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title cardBC">Average sensitivity of radiologists supported by AI systems in the US.
-                    </h5>
-                </div>
-            </div>
-        </div>
-    </div>
-    <p class="source">Source : Breast Cancer Surveillance Consortium </p>
-
-    <!-- ********* -->
-    <div class="data">
-        <div class="container">
-        </div>
-    </div>
-
+    <hr class="featurette-divider">
     <div>
-        <h1 class='glance' style="text-decoration: underline   #19af6e; ">COVID's IMPACT</h1>
-        <div class="impact">
-            <div class="container">
-            </div>
-        </div>
-        <h2 class="bigger bigger2">Triage for Breast Cancer Patients was revisited and priorities care for patients
-            at
-            risk
-            because of the
-            pandemic. Many imaging modalities were put on hold and saw a downturn in activity.</h2>
-    </div>
+        <h1 class='glance titled'>GENERAL STATEMENT</h1>
+        <div class="row">
+            <div class="col-sm-2">
+                <div class="card">
+                    <img src="assets/img/circle.png" class="card-img-top" alt="...">
 
-    <div class="row">
-        <div class="col-sm-4">
-            <div class="card">
-                <img src="assets/img/94.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title cardBC">Decline in weekly screenings in March 2020</h5>
+                    <!-- <div class="card-body">
+
+                    </div> -->
+                </div>
+            </div>
+            <div class="col-sm-10">
+                <div class="card">
+
+                    <div class="card-body">
+                        <h2 class="bigger no-padding">25% of disagreement between radiologists, with comparable training and
+                            experiences, because of
+                            rendering different diagnoses.
+
+                        </h2>
+
+                        <h2 class="bigger no-padding">20% of disagreement with themselves, when presented with same cases a month
+                            later
+
+                        </h2>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-sm-4">
-            <div class="card">
-                <img src="assets/img/29.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title cardBC">Difference in screening imaging in US compared to June 2019 baseline
-                    </h5>
+    </div>
+    
+    <hr class="featurette-divider">
+    <div>
+        <h1 class='glance titled'>OVERVIEW STATISTICS</h1>
+        <div class="row" style="align-items: normal;">
+            <div class="col-sm-3">
+                <div class="card">
+                    <img src="assets/img/87.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title cardBC">Average sensitivity of radiologists in the US</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <img src="assets/img/7.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title cardBC">False positive rate for a mammogram (no history)</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <img src="assets/img/50.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title cardBC">False positive rate over a period of 10 yearly mammograms
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <img src="assets/img/89.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title cardBC">Average sensitivity of radiologists supported by AI systems in the US.
+                        </h5>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-sm-4">
-            <div class="card">
-                <img src="assets/img/285k.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title cardBC">285,000 estimated screenings missed or postponed between March and
-                        June 2020
-                    </h5>
+        <p class="source">Source : Breast Cancer Surveillance Consortium </p>
+        <div class="container-page container-data">
+        </div>
+    </div>
+    <hr class="featurette-divider">
+    <div>
+        <h1 class='glance titled'>COVID's IMPACT</h1>
+        <div class="container-page container-impact">
+        </div>
+        <p class="source">Source : ehrn.org</p>
+        <h2 class="bigger bigger2 sized">Triage for Breast Cancer Patients was revisited and priorities care for patients at risk
+                because of the
+                pandemic. Many imaging modalities were put on hold and saw a downturn in activity.</h2>
+
+        <div class="row" style="align-items: normal;">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title cardBC" style="font-size: 100px">94%</h2>
+                        <p class="card-text cardBC">Decline in weekly screenings in March 2020.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title cardBC" style="font-size: 100px">-29%</h2>
+                        <p class="card-text cardBC">Difference in screening imaging in US compared to June 2019 baseline.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title cardBC" style="font-size: 100px">285k</h2>
+                        <p class="card-text cardBC">285,000 estimated screenings missed or postponed between March and June 2020.</p>
+                    </div>
                 </div>
             </div>
         </div>
-        <h2 class="bigger bigger2">Mammography imaging was one of the most impacted imaging modalities. The decrease in
+        <h2 class="bigger bigger2 sized">Mammography imaging was one of the most impacted imaging modalities. <br> The decrease in
             activity fluctuates depending on the type of practice, where independent practices were mostly hit by the
-            COVID-19 Pandemic Breast Cancer Consortium. Independent practices saw on average their revenue decrease 3x
+            COVID-19 Pandemic Breast Cancer Consortium. <br> Independent practices saw on average their revenue decrease 3x
             more than primary practices in Massachusetts.</h2>
-
     </div>
-
+    <hr class="featurette-divider">
     <div>
-        <h1 class='glance' style="text-decoration: underline   #19af6e; ">BREAST SCREENING AI MOBILE UNIT</h1>
-        <h2 class="bigger bigger2">COVID-19 has caused one of the biggest crises in healthcare mainly caused by a
+        <h1 class='glance titled'>BREAST SCREENING AI MOBILE UNIT</h1>
+        <h2 class="bigger bigger2 sized">COVID-19 has caused one of the biggest crises in healthcare mainly caused by a
             decrease in activity which directly impacted outpatients and imaging volumes.
             To address COVID-19’s challenges to practices, practices had to undergo some fundamental changes :
         </h2>
@@ -339,8 +326,7 @@
                 </div>
             </div>
         </div>
-
-        <h2 class="bigger bigger2">COVID accelerated in a way the new normal of tomorrow where breast screening will
+        <h2 class="bigger bigger2 sized">COVID accelerated in a way the new normal of tomorrow where breast screening will
             mainly rely on outpatients being screened outside of hospitals and where direct diagnosis will be supported
             by telemedicine.
             <br>
@@ -354,120 +340,156 @@
             up on the missed screenings on state level. The efficiency of our program relies on our network of partners,
             hospitals that would pursue further treatment if our AI and radiologists suspect suspicious breast findings.
         </h2>
-
     </div>
-
-
-    <div class="row">
-        <div class="col-sm-6">
-            <div class="card" style="max-width: 500px; border-style: solid;">
-                <div class="row no-gutters">
-                    <div class="col-sm-4">
-                        <img src="assets/img/noimage.png" alt="...">
-                    </div>
-                    <div class="col-sm-3"></div>
-                    <div class="col-sm-5">
-                        <div class="card-body">
-                            <p class="card-text">Health and wellness is top priority for our programs, as long as COVID
-                                remains
-                                around.</p>
-                        </div>
-                    </div>
+    <hr class="featurette-divider">
+    <section class="accordion-section clearfix mt-3" aria-label="Question Accordions">
+      <div class="container sized">
+      
+          <h2>Frequently Asked Questions </h2>
+          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+              <div class="panel-heading p-3 mb-3" role="tab" id="heading0">
+                <h3 class="panel-title">
+                  <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse0" aria-expanded="true" aria-controls="collapse0">
+                    What are the benefits of Solodev CMS?
+                  </a>
+                </h3>
+              </div>
+              <div id="collapse0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading0">
+                <div class="panel-body px-3 mb-4">
+                  <p>With Solodev CMS, you and your visitors will benefit from a finely-tuned technology stack that drives the highest levels of site performance, speed and engagement - and contributes more to your bottom line. Our users fell in love with:</p>
+                  <ul>
+                    <li>Light speed deployment on the most secure and stable cloud infrastructure available on the market.</li>
+                    <li>Scalability – pay for what you need today and add-on options as you grow.</li>
+                    <li>All of the bells and whistles of other enterprise CMS options but without the design limitations - this CMS simply lets you realize your creative visions.</li>
+                    <li>Amazing support backed by a team of Solodev pros – here when you need them.</li>
+                  </ul>
                 </div>
+              </div>
             </div>
-        </div>
-        <div class="col-sm-6">
-            <div class="card" style="max-width: 500px; border-style: solid;">
-                <div class="row no-gutters">
-                    <div class="col-sm-4">
-                        <img src="assets/img/noimage.png" alt="...">
-                    </div>
-                    <div class="col-sm-3"></div>
-                    <div class="col-sm-5">
-                        <div class="card-body">
-                            <p class="card-text">Monitoring on state and nation level to plan ahead and take according
-                                responses to potential new outbreaks
-                            </p>
-                        </div>
-                    </div>
+            
+            <div class="panel panel-default">
+              <div class="panel-heading p-3 mb-3" role="tab" id="heading1">
+                <h3 class="panel-title">
+                  <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                    How easy is it to build a website with Solodev CMS?
+                  </a>
+                </h3>
+              </div>
+              <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+                <div class="panel-body px-3 mb-4">
+                  <p>Building a website is extremely easy. With a working knowledge of HTML and CSS you will be able to have a site up and running in no time.</p>
                 </div>
+              </div>
             </div>
-        </div>
-
-    </div>
-
-
-
-    <div>
-        <div class="row">
-            <div class="col-sm-3">
-
+            
+            <div class="panel panel-default">
+              <div class="panel-heading p-3 mb-3" role="tab" id="heading2">
+                <h3 class="panel-title">
+                  <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                    What is the uptime for Solodev CMS?
+                  </a>
+                </h3>
+              </div>
+              <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+                <div class="panel-body px-3 mb-4">
+                  <p>Using Amazon AWS technology which is an industry leader for reliability you will be able to experience an uptime in the vicinity of 99.95%.</p>
+                </div>
+              </div>
             </div>
-            <div class="col-sm-6" style="padding:20px;">
-                <img src="assets/img/medical_protection.png" alt="...">
+            
+            <div class="panel panel-default">
+              <div class="panel-heading p-3 mb-3" role="tab" id="heading3">
+                <h3 class="panel-title">
+                  <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                    Can Solodev CMS handle multiple websites for my company?
+                  </a>
+                </h3>
+              </div>
+              <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+                <div class="panel-body px-3 mb-4">
+                  <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
+                </div>
+              </div>
             </div>
-            <div class="col-sm-3">
+          </div>
+      
+      </div>
+    </section>
 
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-sm-6">
-                <img src="assets/img/digital_verif.png" alt="...">
-            </div>
-            <div class="col-sm-6">
-                <img src=" assets/img/core_technology.png" alt="...">
-            </div>
-        </div>
-    </div>
-
-
-
-
-    <!-- ********* -->
     </div>
     <br>
     <div class="footers">
         <div class="footer1">
             <div class="container-page footer-program">
-                <h1 class='bigger'>JOIN OUR PROGRAM</h1>
-                <h2 class='join'>Ask your office Human Resources, if Boston Meditech is partnered with you for Breast
+                <h1 class='bigger bigger-footer' >JOIN OUR PROGRAM</h1>
+                <h2 class='join join-footer'>Ask your office Human Resources, if Boston Meditech is partnered with you for Breast
                     Cancer Awarness day.
                     <br> Or send us an inquiry to reach out to your company and benefit all the women in your
                     workplace.
                 </h2>
-                <a href="#" class="btn_join btn-primary btn2 involved">Get Involved</a>
+                <a href="contact.html" class="btn btn-primary btn involved">Get Involved</a>
             </div>
-        </div>
-        <div class=footer>
-            <div class=footer-ctx>
-                <div class="footer-col footer-col-text" style=width:272px>
-                    <img width=93 height=133 src="assets/img/drlotusai_clean.png">
-                    <div>Boston Meditech Group Inc. <br>20 Mall Road, Suite 151, <br> Burlington, MA 01803, U.S.A</div>
-                </div>
-                <div class=footer-col style=padding-top:25px><strong>MENU</strong>
-                    <a href="aboutBC.html">About Breast Cancer</a>
-                    <a href="MobileUnit.html">Mobile Unit Services</a>
-                    <a href="ProductTech.html">Products & Technology</a>
-                    <a href="aboutUs.html">About Us</a>
-                    <a href="#">News/Blog</a>
-                    <a href="contact.html">Contact Us</a>
-                </div>
-                <div class=footer-col style=padding-top:25px><strong>EXTRAS</strong>
-                    <a href="">Legal info</a>
-                    <a href="">Privacy Policy</a>
-                    <a href="">Sitemap</a>
-                </div>
-                <div class=footer-col style=padding-top:25px><strong>LINK TO SOCIALS</strong>
-                    <a>E-mail:</a>
-                    <a href=javascript:;;>it@bostonmeditech.com</a>
-                </div>
-            </div>
-            <div class=footer-end>© 2020 Boston Meditech Group</div>
-            <!-- <div class="footer-copyright text-center pb-3">© 2020 Boston Meditech Group</div> -->
         </div>
     </div>
+    <div class=footer>
+        <div class=footer-ctx>
+            <div class="footer-col footer-col-text" style=width:272px>
+                <img width=93 height=133 src="assets/img/drlotusai_clean.png">
+                <div>Boston Meditech Group Inc. <br>20 Mall Road, Suite 151, <br> Burlington, MA 01803, U.S.A</div>
+            </div>
+            <div class=footer-col style=padding-top:25px><strong>MENU</strong> 
+                <a href="index.html">Home</a> 
+                <a href="aboutBC.html">About Breast Cancer</a> 
+                <a href="MobileUnit.html">Mobile Unit Services</a> 
+                <a href="ProductTech.html">Products & Technology</a> 
+                <a href="aboutUs.html">About Us</a> 
+                <a href="contactUs.html">Contact Us</a>
+            </div>
+            <div class=footer-col style=padding-top:25px><strong>EXTRAS</strong> 
+                <a href="">Legal info</a> 
+                <a href="">Privacy Policy</a> 
+            </div>
+            <div class=footer-col style=padding-top:25px><strong>LINK TO SOCIALS</strong> 
+                <a href="mailto:is@bostonmeditech.com" method="post";>is@bostonmeditech.com</a>
+            </div>
+        </div>
+        <div class=footer-end>© 2020 Boston Meditech Group</div>
+        <!-- <div class="footer-copyright text-center pb-3">© 2020 Boston Meditech Group</div> -->
+    </div>
+</div>
+<!--===============================================================================================-->    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+    <script src="vendor/bootstrap/js/popper.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+    <script src="vendor/select2/select2.min.js"></script>
+    <script>
+        $(".selection-2").select2({
+            minimumResultsForSearch: 20,
+            dropdownParent: $('#dropDownSelect1')
+        });
+    </script>
+<!--===============================================================================================-->
+    <script src="vendor/daterangepicker/moment.min.js"></script>
+    <script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+    <script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap-states.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
+      gtag('config', 'UA-23581568-13');
+    </script>
 </body>
 
 </html>

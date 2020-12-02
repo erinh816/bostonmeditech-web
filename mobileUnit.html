@@ -1,235 +1,252 @@
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mobile Unit Services</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Text+Me+One|Baloo+Bhai" rel="stylesheet">
-    <link rel="stylesheet" href="assets/style.css">
+
+    <link rel="icon" href="assets/img/drlotusai_clean.png">
+    <!-- Bootstrap Form Helpers -->
+    <link href="http://bootstrapformhelpers.com/assets/css/bootstrap-formhelpers.min.css" rel="stylesheet" media="screen">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <!-- Bootstrap -->
+    <!-- <script src="http://bootstrapformhelpers.com/assets/js/bootstrap.min.js"></script>
+
+    Bootstrap Form Helpers
+    <script src="http://bootstrapformhelpers.com/assets/js/bootstrap-formhelpers.min.js"></script> -->
+
+<!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+    <link rel="stylesheet" href="assets/mobile.css">
+    <link rel="stylesheet" href="assets/bootstrap-fromhelpers.css">
+    <link rel="stylesheet" type="text/css" href="assets/util.css">
+<!--===============================================================================================-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates|Saira+Stencil+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Text+Me+One|Baloo+Bhai" rel="stylesheet">
 </head>
 
 <body>
-    <!-- first page div -->
-    <header class="header" style="position:fixed;">
-        <div class="big-wrapper">
-            <div class="logo-area">
-                <img src="assets/img/cropped-drlotusai-transparent-final-1.png" class="img-fluid">
-            </div>
-            <div class="header-right-area">
-                <a class="btn2 btn-primary btn2"> Join us</a>
-                <a class="btn2 btn-primary btn2"> Book an appointment </a>
-            </div>
-            <div class="tabs">
-                <a href="index.html" style="text-decoration: none">
-                    <div class="Tab">
-                        <div id="Home" style="margin-bottom: 2px;">Home</div>
-                        <div class="line" style="border-top: 2px solid rgba(0,0,0,0);"></div>
-                    </div>
-                </a>
-                <a href="aboutBC.html" style="text-decoration: none">
-                    <div class="Tab">
-                        <div id="AboutBC" style="margin-bottom: 2px;">About Breast Cancer</div>
-                        <div class="line" style="border-top: 2px solid rgba(0,0,0,0);"></div>
-                    </div>
-                </a>
-                <a href="mobileUnit.html" style="text-decoration: none">
-                    <div class="Tab">
-                        <div id="MobileUnit" style="margin-bottom: 2px;">Mobile Unit Services</div>
-                        <div class="line" style="border-top: 2px solid rgba(0,0,0,0);"></div>
-                    </div>
-                </a>
-                <a href="ProductTech.html" style="text-decoration: none">
-                    <div class="Tab">
-                        <div id="ProductTech" style="margin-bottom: 2px;">Products and Technology</div>
-                        <div class="line" style="border-top: 2px solid rgba(0,0,0,0);"></div>
-                    </div>
-                </a>
-                <a href="aboutUs.html" style="text-decoration: none">
-                    <div class="Tab">
-                        <div id="AboutUS" style="margin-bottom: 2px;">About Us</div>
-                        <div class="line" style="border-top: 2px solid rgba(0,0,0,0);"></div>
-                    </div>
-                </a>
-                <a href="contact.html" style="text-decoration: none">
-                    <div class="Tab">
-                        <div id="ContactUS" style="margin-bottom: 2px;">Contact Us</div>
-                        <div class="line" style="border-top: 2px solid rgba(0,0,0,0);"></div>
-                    </div>
-                </a>
-            </div>
-    </header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="logo-area" href="index.html">
+            <img src="assets/img/cropped-drlotusai-transparent-final-1.png" class="img-fluid">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutBC.html">About Breast Cancer</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="mobileUnit.html">Mobile Unit Services<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ProductTech.html">Products and Technology</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Company</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                  <a class="dropdown-item" href="aboutUs.html">About Us</a>
+                  <a class="dropdown-item" href="contact.html">Contact Us</a>
+                </div>
+              </li>
+            </ul>
+            <form class="form-inline mt-2 mt-md-0">
+              <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Join Us</button> -->
+              <a href="appointment.html" class="btn btn-outline-success my-2 my-sm-0" >Book an appointment </a>
+            </form>
+        </div>
+    </nav>
+
     <div id="firstpage">
-        <div class="jumbotron jumbotron-fluid mobileUnit">
-            <div class="container">
-
-            </div>
+        <div class="jumbotron jumbotron-fluid">
+            <video id="video-bkg" preload autoplay loop>
+                <source src="assets/img/video.mp4" type="video/mp4">
+            </video>
         </div>
     </div>
-    <!-- first page div -->
+    <!-- START THE FEATURETTES -->
+    <h1 class='glance' style="text-decoration: underline   #7087a7;">MOBILE UNIT EXPERIENCE</h1>
+    <div class="container marketing">
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Make your appointment online <span class="text-muted">It'll be so easy.</span></h2>
+            <p class="lead">Our new plateform enables women all over Massachussetts to schedule
+            their mammogram online for a faster and more efficient experience on the day of your screening
+            appointment.
 
-    <!-- second page div -->
-    <h1 class='mobile experience' style="text-decoration: underline   #7087a7; ">MOBILE UNIT EXPERIENCE</h1>
-    <div class="row-mobile">
-        <div class="col-sm-6">
-            <div class="card">
-                <div class="card-body">
-                    <img class="card-img-top" src="assets/img/test2.png">
-                </div>
-            </div>
+            <br>1. Visit our dedicated website to look for screening events in MA.
+            <br>2. Select the time-slots in your area that would be the most convenient
+            INFO : If no events are available in your area, fill in a request, and we would make additional
+            steps to bring an event to your community.
+            <br>3. Once you pick up a date, fill in your personal information for pre-registration on our
+            mobile
+            unit.
+            <br>4. A email confirmation and reminder will be sent to your contact information</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="assets/img/appointment.jpg">
+          </div>
         </div>
-        <div class="col-sm-6">
-            <div class="card">
-                <div class="card-body">
-                    <h2 class="card-title cardBC">Make your appointment online</h2>
-                    <p class="card-text">Our new plateform enables women all over Massachussetts to schedule
-                        their mammogram online for a faster and more efficient experience on the day of your screening
-                        appointment.
 
-                        <br>1. Visit our dedicated website to look for screening events in MA.
-                        <br>2. Select the time-slots in your area that would be the most convenient
-                        INFO : If no events are available in your area, fill in a request, and we would make additional
-                        steps to bring an event to your community.
-                        <br>3. Once you pick up a date, fill in your personal information for pre-registration on our
-                        mobile
-                        unit.
-                        <br>4. A email confirmation and reminder will be sent to your contact information
+        <hr class="featurette-divider">
 
-                    </p>
-                    <a href="https://www.nationalbreastcancer.org/about-breast-cancer/"
-                        class="btn btn-primary btn2">Pre-register
-                        here</a>
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Your journey at our mobile unit <span class="text-muted">See for yourself.</span></h2>
+            <p class="lead">Our efficient worklow will enable you to take a mammogram screening within 15
+            minutes.
 
-                </div>
-            </div>
+            Mandatory COVID-19 security protocol will be performed by our professional team before entering
+            the mobile unit.
+            Those steps will include :
+
+            <br>1. Temperature measurement before entering the mobile unit.
+            <br>2. Survey on health conditions related to COVID-19 for fast tracking of our patients
+            entering our safe environment.
+            <br>3. Our professional team will check pre-registration information from your side to check if
+            everything is in order.
+            <br>4. Once the last step is verified, you would be able to get access to our mammography room.
+            The acquisition should take less than 5 minutes.
+            <br>5. Once the acquisition is completed, and the quality of the mammograms is verified, you
+            will be able to pay for your consultancy in person, or through your insurance.</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img class="featurette-image img-fluid mx-auto" src="assets/img/exam_room.JPEG">
+          </div>
         </div>
-    </div>
-    <!-- second page div -->
 
+        <hr class="featurette-divider">
 
-    <!-- third page div -->
-    <div class="row">
-        <div class="col-sm-6">
-            <div class="card">
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Results from your appointment
+            and eventual follow-up service</h2>
+            <p class="lead">We vouch that your mammograms will be evaluated by our Artificial Intelligence
+            (AI) as a first set of eyes, before being passed to an experienced radiologists.
+            <br>
 
-                <div class="card-body">
-                    <img src="assets/img/noImage2.png" class="card-img-top noimage" alt="...">
-                </div>
-            </div>
+            <br>The radiologists will provide final diagnositic result based on the AI and his own
+            observations.
+            <br>
+
+            <br>Two scenarios might occur :
+            <br>1. Your mammogram results are benign and no follow-up treatment is required, you would be
+            able
+            to have access to the doctor's report through our website, in order for you to get familiar with
+            your state of health. Based on our results, we will provide an estimate for recurrent mammograms
+            over the years to come.
+            <br>2. We found some malignant findings and need to provide further diagnosis or treatment. In
+            this
+            particular case, our team will reach out to you through your contact information and guide you
+            in the following steps that needs to taken for further treatment.</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid mx-auto" src="assets/img/follow.jpg" alt="Generic placeholder image">
+          </div>
         </div>
-        <div class="col-sm-6">
-            <div class="card">
-                <div class="card-body">
-                    <h2 class="card-title cardBC">Your journey at our mobile unit</h2>
-                    <p class="card-text">Our efficient worklow will enable you to take a mammogram screening within 15
-                        minutes.
 
-                        Mandatory COVID-19 security protocol will be performed by our professional team before entering
-                        the mobile unit.
-                        Those steps will include :
+        <!-- <hr class="featurette-divider"> -->
 
-                        <br>1. Temperature measurement before entering the mobile unit.
-                        <br>2. Survey on health conditions related to COVID-19 for fast tracking of our patients
-                        entering our safe environment.
-                        <br>3. Our professional team will check pre-registration information from your side to check if
-                        everything is in order.
-                        <br>4. Once the last step is verified, you would be able to get access to our mammography room.
-                        The acquisition should take less than 5 minutes.
-                        <br>5. Once the acquisition is completed, and the quality of the mammograms is verified, you
-                        will be able to pay for your consultancy in person, or through your insurance.
-
-                    </p>
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- third page div -->
-
-    <!-- fourth page div -->
-    <div class="row">
-        <div class="col-sm-6">
-            <div class="card">
-
-                <div class="card-body">
-                    <img src="assets/img/noImage2.png" class="card-img-top noimage" alt="...">
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6">
-            <div class="card">
-                <div class="card-body">
-                    <h2 class="card-title cardBC">Results from your appointment
-                        <br>and eventual follow-up service</h2>
-                    <p class="card-text">We vouch that your mammograms will be evaluated by our Artificial Intelligence
-                        (AI) as a first set of eyes, before being passed to an experienced radiologists.
-                        <br>
-
-                        <br>The radiologists will provide final diagnositic result based on the AI and his own
-                        observations.
-                        <br>
-
-                        <br>Two scenarios might occur :
-                        <br>1. Your mammogram results are benign and no follow-up treatment is required, you would be
-                        able
-                        to have access to the doctor's report through our website, in order for you to get familiar with
-                        your state of health. Based on our results, we will provide an estimate for recurrent mammograms
-                        over the years to come.
-                        <br>2. We found some malignant findings and need to provide further diagnosis or treatment. In
-                        this
-                        particular case, our team will reach out to you through your contact information and guide you
-                        in the following steps that needs to taken for further treatment.
-                    </p>
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- fourth page div -->
+        <!-- /END THE FEATURETTES -->
+      </div><!-- /.container -->
     <div class="footers">
         <div class="footer1">
             <div class="container-page footer-program">
-                <h1 class='bigger'>JOIN OUR PROGRAM</h1>
-                <h2 class='join'>Ask your office Human Resources, if Boston Meditech is partnered with you for Breast
+                <h1 class='bigger bigger-footer' >JOIN OUR PROGRAM</h1>
+                <h2 class='join join-footer'>Ask your office Human Resources, if Boston Meditech is partnered with you for Breast
                     Cancer Awarness day.
                     <br> Or send us an inquiry to reach out to your company and benefit all the women in your
                     workplace.
                 </h2>
-                <a href="#" class="btn_join btn-primary btn2 involved">Get Involved</a>
+                <a href="contact.html" class="btn_join btn-primary btn involved">Get Involved</a>
             </div>
-        </div>
-        <div class=footer>
-            <div class=footer-ctx>
-                <div class="footer-col footer-col-text" style=width:272px>
-                    <img width=93 height=133 src="assets/img/drlotusai_clean.png">
-                    <div>Boston Meditech Group Inc. <br>20 Mall Road, Suite 151, <br> Burlington, MA 01803, U.S.A</div>
-                </div>
-                <div class=footer-col style=padding-top:25px><strong>MENU</strong>
-                    <a href="aboutBC.html">About Breast Cancer</a>
-                    <a href="MobileUnit.html">Mobile Unit Services</a>
-                    <a href="ProductTech.html">Products & Technology</a>
-                    <a href="aboutUs.html">About Us</a>
-                    <a href="#">News/Blog</a>
-                    <a href="contactUs.html">Contact Us</a>
-                </div>
-                <div class=footer-col style=padding-top:25px><strong>EXTRAS</strong>
-                    <a href="">Legal info</a>
-                    <a href="">Privacy Policy</a>
-                    <a href="">Sitemap</a>
-                </div>
-                <div class=footer-col style=padding-top:25px><strong>LINK TO SOCIALS</strong>
-                    <a>E-mail:</a>
-                    <a href=javascript:;;>it@bostonmeditech.com</a>
-                </div>
-            </div>
-            <div class=footer-end>© 2020 Boston Meditech Group</div>
-            <!-- <div class="footer-copyright text-center pb-3">© 2020 Boston Meditech Group</div> -->
         </div>
     </div>
-</body>
+    <div class=footer>
+        <div class=footer-ctx>
+            <div class="footer-col footer-col-text" style=width:272px>
+                <img width=93 height=133 src="assets/img/drlotusai_clean.png">
+                <div>Boston Meditech Group Inc. <br>20 Mall Road, Suite 151, <br> Burlington, MA 01803, U.S.A</div>
+            </div>
+            <div class=footer-col style=padding-top:25px><strong>MENU</strong> 
+                <a href="index.html">Home</a> 
+                <a href="aboutBC.html">About Breast Cancer</a> 
+                <a href="MobileUnit.html">Mobile Unit Services</a> 
+                <a href="ProductTech.html">Products & Technology</a> 
+                <a href="aboutUs.html">About Us</a> 
+                <a href="contactUs.html">Contact Us</a>
+            </div>
+            <div class=footer-col style=padding-top:25px><strong>EXTRAS</strong> 
+                <a href="">Legal info</a> 
+                <a href="">Privacy Policy</a> 
+            </div>
+            <div class=footer-col style=padding-top:25px><strong>LINK TO SOCIALS</strong> 
+                <a href="mailto:is@bostonmeditech.com" method="post";>is@bostonmeditech.com</a>
+            </div>
+        </div>
+        <div class=footer-end>© 2020 Boston Meditech Group</div>
+        <!-- <div class="footer-copyright text-center pb-3">© 2020 Boston Meditech Group</div> -->
+    </div>
+    <div id="dropDownSelect1"></div>
+</div>
+<!--===============================================================================================-->    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+    <script src="vendor/bootstrap/js/popper.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+    <script src="vendor/select2/select2.min.js"></script>
+    <script>
+        $(".selection-2").select2({
+            minimumResultsForSearch: 20,
+            dropdownParent: $('#dropDownSelect1')
+        });
+    </script>
+<!--===============================================================================================-->
+    <script src="vendor/daterangepicker/moment.min.js"></script>
+    <script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+    <script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap-states.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-23581568-13');
+    </script>
 
 </html>

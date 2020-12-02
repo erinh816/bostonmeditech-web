@@ -4,74 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About US</title>
+    <link rel="icon" href="assets/img/drlotusai_clean.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Text+Me+One|Baloo+Bhai" rel="stylesheet">
     <link rel="stylesheet" href="assets/about.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates|Saira+Stencil+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
-    <header class="header" style="position:fixed;">
-        <div class="big-wrapper">
-            <div class="logo-area">
-                <img src="assets/img/cropped-drlotusai-transparent-final-1.png" class="img-fluid">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="logo-area" href="index.html">
+            <img src="assets/img/cropped-drlotusai-transparent-final-1.png" class="img-fluid">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutBC.html">About Breast Cancer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="mobileUnit.html">Mobile Unit Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ProductTech.html">Products and Technology</a>
+              </li>
+              <li class="nav-item active dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Company<span class="sr-only">(current)</span></a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                  <a class="dropdown-item" href="aboutUs.html">About Us</a>
+                  <a class="dropdown-item" href="contact.html">Contact Us</a>
+                </div>
+              </li>
+            </ul>
+            <form class="form-inline mt-2 mt-md-0">
+              <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Join Us</button> -->
+              <a href="appointment.html" class="btn btn-outline-success my-2 my-sm-0" >Book an appointment </a>
+            </form>
         </div>
-        <div class="header-right-area">
-            <a class="btn2 btn-primary btn2"> Join us</a>
-            <a class="btn2 btn-primary btn2"> Book an appointment </a>
-        </div>
-        <div class="tabs">
-            <a href="index.html" style="text-decoration: none">
-                <div class="Tab">
-                    <div id="Home" style="margin-bottom: 2px;">Home</div>
-                <div class="line" style="border-top: 2px solid rgba(0,0,0,0);"></div>
-                </div>
-            </a>
-            <a href="aboutBC.html" style="text-decoration: none">
-                <div class="Tab">
-                    <div id="AboutBC" style="margin-bottom: 2px;">About Breast Cancer</div>
-                <div class="line" style="border-top: 2px solid rgba(0,0,0,0);"></div>
-                </div>
-            </a>
-            <a href="mobileUnit.html" style="text-decoration: none">
-                <div class="Tab">
-                    <div id="MobileUnit" style="margin-bottom: 2px;">Mobile Unit Services</div>
-                <div class="line" style="border-top: 2px solid rgba(0,0,0,0);"></div>
-                </div>
-            </a>
-            <a href="ProductTech.html" style="text-decoration: none">
-                <div class="Tab">
-                    <div id="ProductTech" style="margin-bottom: 2px;">Products and Technology</div>
-                <div class="line" style="border-top: 2px solid rgba(0,0,0,0);"></div>
-                </div>
-            </a>
-            <a href="aboutUs.html" style="text-decoration: none">
-                <div class="Tab">
-                    <div id="AboutUS" style="margin-bottom: 2px;">About Us</div>
-                <div class="line" style="border-top: 2px solid rgba(0,0,0,0);"></div>
-                </div>
-            </a>
-            <a href="#" style="text-decoration: none">
-                <div class="Tab">
-                    <div id="ContactUS" style="margin-bottom: 2px;">Contact Us</div>
-                <div class="line" style="border-top: 2px solid rgba(0,0,0,0);"></div>
-                </div>
-            </a>
-        </div>
-    </header>
+    </nav>
     <!--  -->
-    <div id="firstpage">
-        <div class="jumbotron">
-            <div id="particles-js"></div>
-            <p class="display-4">About US</p>
-        </div>
-    <!--  -->
-    </div>
     <div class=items>
-        <h3>Meet our board members</h3>
+        <!-- <h3>Meet our board members</h3>
         <div class=items-wrap>
             <div class=items-block>
                 <div class=block-img></div>
@@ -108,7 +90,7 @@
                 <h4>David Chen</h4>
                 <p>Chairman of NA Huayuan Technology Association. Co-founder of Vanoeinfo, a NASDAQ IPO company.</p>
             </div>
-        </div>
+        </div> -->
         <div class=job>
             <div class=job-wrap>
                 <p>We currently do not have any open positions, if you wish to join our team and would bring great value
@@ -119,15 +101,16 @@
     <div class="footers">
         <div class="footer1">
             <div class="container-page footer-program">
-                <h1 class='bigger'>JOIN OUR PROGRAM</h1>
-                <h2 class='join'>Ask your office Human Resources, if Boston Meditech is partnered with you for Breast
+                <h1 class='bigger bigger-footer' >JOIN OUR PROGRAM</h1>
+                <h2 class='join join-footer'>Ask your office Human Resources, if Boston Meditech is partnered with you for Breast
                     Cancer Awarness day.
                     <br> Or send us an inquiry to reach out to your company and benefit all the women in your
                     workplace.
                 </h2>
-                <a href="#" class="btn_join btn-primary btn2 involved">Get Involved</a>
+                <a href="contact.html" class="btn btn-primary btn involved">Get Involved</a>
             </div>
         </div>
+    </div>
     <div class=footer>
         <div class=footer-ctx>
             <div class="footer-col footer-col-text" style=width:272px>
@@ -135,28 +118,57 @@
                 <div>Boston Meditech Group Inc. <br>20 Mall Road, Suite 151, <br> Burlington, MA 01803, U.S.A</div>
             </div>
             <div class=footer-col style=padding-top:25px><strong>MENU</strong> 
+                <a href="index.html">Home</a> 
                 <a href="aboutBC.html">About Breast Cancer</a> 
                 <a href="MobileUnit.html">Mobile Unit Services</a> 
                 <a href="ProductTech.html">Products & Technology</a> 
                 <a href="aboutUs.html">About Us</a> 
-                <a href="#">News/Blog</a> 
                 <a href="contactUs.html">Contact Us</a>
             </div>
             <div class=footer-col style=padding-top:25px><strong>EXTRAS</strong> 
                 <a href="">Legal info</a> 
                 <a href="">Privacy Policy</a> 
-                <a href="">Sitemap</a>
             </div>
             <div class=footer-col style=padding-top:25px><strong>LINK TO SOCIALS</strong> 
-                <a>E-mail:</a> 
-                <a href=javascript:;;>it@bostonmeditech.com</a>
+                <a href="mailto:is@bostonmeditech.com" method="post";>is@bostonmeditech.com</a>
             </div>
         </div>
         <div class=footer-end>© 2020 Boston Meditech Group</div>
         <!-- <div class="footer-copyright text-center pb-3">© 2020 Boston Meditech Group</div> -->
     </div>
 </div>
+<!--===============================================================================================-->    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+    <script src="vendor/bootstrap/js/popper.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+    <script src="vendor/select2/select2.min.js"></script>
+    <script>
+        $(".selection-2").select2({
+            minimumResultsForSearch: 20,
+            dropdownParent: $('#dropDownSelect1')
+        });
+    </script>
+<!--===============================================================================================-->
+    <script src="vendor/daterangepicker/moment.min.js"></script>
+    <script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+    <script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap-states.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
+      gtag('config', 'UA-23581568-13');
+    </script>
 </body>
 
 </html>
